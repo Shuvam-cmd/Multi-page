@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">"Advance Your DSA Skills for Free | Start with C++ on take U forward
+            "</h1>
+        <ol>
+            <li><a href="#first">C++ Introduction</a></li>
+            <li><a href="#second">C++ Compiler</a></li>
+            <li><a href="#third">Array</a></li>
+            <li><a href="#fourth">Tree</a></li>
+            <li><a href="#fifth">Graph</a></li>
+        </ol>
+    </header>
+    <main>
+
+        <section id="first">
+            <h2>Introduction to C++:</h2>
+            <p>C++ is a powerful, general-purpose programming language developed by Bjarne Stroustrup in the early 1980s
+                as
+                an extension of the C language.
+                It is widely used for system/software development, game development, and applications requiring high
+                performance.</p>
+
+            <h3>Key Features of C++:</h3>
+
+            <ul>
+                <li>Object-Oriented Programming (OOP):
+                    C++ supports OOP principles like classes and objects, which help organize code and promote
+                    reusability.
+                </li>
+                <li>Rich Standard Library:
+                    It offers a wide range of built-in functions and libraries, which helps in reducing development
+                    time.
+                </li>
+                <li>High Performance:
+                    C++ allows low-level memory manipulation, enabling developers to optimize performance-critical
+                    applications.</li>
+                <li>Portability:
+                    C++ programs can be easily compiled and executed across various platforms with minimal changes.</li>
+                <li>C Compatibility:
+                    C++ is fully compatible with C, allowing developers to integrate and reuse existing C code.</li>
+            </ul>
+
+            <h2>Basic Syntax</h2>
+            <pre> <code>
+                     #include &lt;iostream&gt; 
+                     using namespace std;
+                         int main() {
+                             cout &lt;&lt;"Hello, World!"&lt;&lt; endl;
+                             return 0;
+                            }
+                         </code> </pre>
+
+            <h3>C++ Code Breakdown:</h3>
+            <ul>
+                <li>#include &lt;iostream&gt;: Includes the input/output stream library, enabling the use of cout for
+                    output
+                    and cin for input.</li>
+                <li>using namespace std;: Allows access to standard library features without the need for prefixing them
+                    with std::</li>
+                <li>int main(): The main entry point of every C++ program.</li>
+                <li>cout: Used for outputting data to the console.</li>
+                <li>return 0;: Indicates successful completion of the program.</li>\
+            </ul>
+
+            <h3>Applications of C++:</h3>
+            <ol>
+                <li>System Software: C++ is widely used in developing operating systems and system-level applications.
+                </li>
+                <li>Game Development: Many game engines and video games are written in C++ due to its performance and
+                    control over system resources.</li>
+                <li>Embedded Systems: C++ is frequently used for programming embedded systems in devices like
+                    smartphones,
+                    appliances, and automotive systems.</li>
+                <li>Web Browsers: C++ powers performance-critical components in web browsers, such as Google Chrome.
+                </li>
+
+            </ol>
+
+            <h2>Free Coding Resources and Tutorials</h2>
+            <p>Take U Forward offers a variety of free resources, tutorials, and online compilers designed to help
+                aspiring
+                coders improve their programming skills. Whether you are a beginner or looking to advance your
+                knowledge,
+                this platform provides valuable tools and content to support your learning journey.</p>
+        </section>
+
+        <!-- C++ Compiler -->
+        <section id="second">
+            <h2>Online compiler</h2>
+            <iframe src="https://ide.takeuforward.org/online-c-compiler" width="100%" height="700"></iframe>
+        </section>
+
+        <!-- Array -->
+        <section id="third">
+            <h2>Introduction to Arrays</h2>
+
+            <h3>What is an Array?</h3>
+            <p>An array is a data structure that allows you to store multiple elements of the same type in a contiguous
+                block of memory. Each element in the array is assigned an index, starting from 0, which can be used to
+                access or modify the elements directly. Arrays provide an efficient way to store and manage data because
+                you
+                can access any element quickly using its index. However, arrays have a fixed size, meaning once you
+                create
+                an array, you cannot change its size, and all elements must be of the same type.</p>
+
+            <img src="Arrays.webp" alt="Array picture">
+
+            <h3>Characteristics of Arrays</h3>
+
+            <ul>
+                <li>Fixed Size: Once an array is created, its size is fixed and cannot be dynamically altered during
+                    runtime. This means the number of elements it can hold is predetermined.</li>
+                <li>Index-Based Access: Elements in an array are accessed by their index, starting at 0 for the first
+                    element. This allows for direct access to any element, making retrieval fast and efficient.</li>
+                <li>Homogeneous Data: All elements in an array must be of the same type, whether integers,
+                    floating-point
+                    numbers, or other data types, ensuring consistency in the data being stored.</li>
+
+            </ul>
+            <h3>Types of Arrays
+            </h3>
+
+            <ol>
+                <li>One-Dimensional Arrays: These are simple arrays where elements are stored in a single row, and each
+                    element can be accessed using one index. It’s essentially a list of items in a straight line.
+                    <ul>
+                        <li>Example: int arr[5]; (This can hold 5 integer values).</li>
+                    </ul>
+                </li>
+                <li>Multi-Dimensional Arrays: These arrays are like arrays within arrays. They are used to represent
+                    data in
+                    grids, tables, or matrices, where elements are accessed using multiple indices (like rows and
+                    columns in
+                    a matrix).
+                    <ul>
+                        <li>Example: int grid[2][3]; (This is a 2x3 grid of integers).</li>
+                    </ul>
+                </li>
+                <li> Dynamic Arrays: Unlike static arrays, dynamic arrays can grow or shrink in size during program
+                    execution. They are often implemented using resizable data structures, like vectors or ArrayLists,
+                    that
+                    can adjust their capacity.
+                    <ul>
+                        <li>Example: In C++, std::vector<int> v; allows a dynamic list of integers.</li>
+                    </ul>
+                </li>
+
+            </ol>
+
+            <h3>Tutorial for Array</h3>
+            <table>
+                <tr>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/37E9ckMDdTk?start=1539&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=17"
+                            frameborder="0"></iframe>
+                    </td>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/wvcQg43_V8U?autoplay=1&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=18"
+                            frameborder="0"></iframe>
+                        </iframe></td>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/bYWLJb3vCWY?autoplay=1&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=19"
+                            frameborder="0"></iframe>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/frf7qxiN2qU?autoplay=1&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=20"
+                            frameborder="0"></iframe>
+                    </td>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/UXDSeD9mN-k?autoplay=1&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=21"
+                            frameborder="0"></iframe>
+                    </td>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/tp8JIuCXBaU?autoplay=1&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=22"
+                            frameborder="0"></iframe>
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section id="fourth">
+            <!-- Tree -->
+            <h2>Introduction to Trees</h2>
+
+            <h3>What is a Tree?</h3>
+            <p>A tree is a hierarchical data structure consisting of nodes, where each node has a value and a list of
+                references to other nodes (children). A tree has a root node, and each child of a node is a subtree.
+                Trees are widely used for representing hierarchical data, such as file systems, databases, and more.</p>
+
+            <img src="Trees.webp" alt="Tree Structure">
+
+            <h3>Characteristics of Trees</h3>
+
+            <ul>
+                <li>Root Node: The topmost node of a tree, which does not have any parent.</li>
+                <li>Child Nodes: Nodes that are directly connected to a parent node. Each node can have multiple
+                    children.</li>
+                <li>Leaf Nodes: Nodes that do not have any children, located at the bottom of the tree structure.</li>
+                <li>Height: The length of the longest path from the root to a leaf node, representing the depth of the
+                    tree.</li>
+            </ul>
+
+            <h3>Types of Trees</h3>
+
+            <ol>
+                <li>Binary Tree: A tree where each node has at most two children (left and right).
+                    <ul>
+                        <li>Example: A tree with nodes representing family relationships.</li>
+                    </ul>
+                </li>
+                <li>Binary Search Tree (BST): A type of binary tree where the left child has a value less than its
+                    parent node, and the right child has a value greater than its parent node.
+                    <ul>
+                        <li>Example: A BST that helps in efficient searching and sorting of elements.</li>
+                    </ul>
+                </li>
+                <li>AVL Tree: A self-balancing binary search tree where the difference in heights of left and right
+                    subtrees is at most 1, ensuring efficient operations.
+                    <ul>
+                        <li>Example: A balanced tree to maintain fast lookup times.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Tutorial for Trees</h3>
+            <table>
+                <tr>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/_ANrF3FJm7I?autoplay=1&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=1"
+                            frameborder="0"></iframe>
+                    </td>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/ctCpP0RFDFc?autoplay=1&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=2"
+                            frameborder="0"></iframe></td>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/hyLyW7rP24I?autoplay=1&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=3"
+                            frameborder="0"></iframe>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/jmy0LaGET1I?autoplay=1&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=4"
+                            frameborder="0"></iframe>
+                    </td>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/RlUu72JrOCQ?autoplay=1&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=5"
+                            frameborder="0"></iframe>
+                    </td>
+                    <td><iframe
+                            src="https://www.youtube.com/embed/Z_NEgBgbRVI?autoplay=1&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&index=6"
+                            frameborder="0"></iframe>
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section id="fifth">
+            <!-- graph -->
+
+            <h2>Introduction to Graphs</h2>
+
+            <h3>What is a Graph?</h3>
+            <p>A graph is a data structure that consists of a set of vertices (or nodes) and a set of edges that connect
+                pairs of vertices. Graphs can represent various types of relationships and connections between data
+                points. They are widely used in computer science to model networks, such as social networks,
+                transportation systems, and communication networks. Graphs can be either directed or undirected,
+                depending on whether the edges have a direction associated with them.</p>
+
+            <img src="GraphS.webp" alt="Graph structure picture">
+
+            <h3>Characteristics of Graphs</h3>
+
+            <ul>
+                <li>Vertices and Edges: A graph is made up of vertices (nodes) and edges (connections), where each edge
+                    connects two vertices.</li>
+                <li>Directed and Undirected: In directed graphs, edges have a direction, indicating a one-way
+                    relationship, while in undirected graphs, edges represent a two-way relationship.</li>
+                <li>Weighted and Unweighted: Graphs can be weighted, meaning edges have associated costs or distances,
+                    or unweighted, where all edges are considered equal.</li>
+            </ul>
+
+            <h3>Types of Graphs</h3>
+
+            <ol>
+                <li>Undirected Graph: A graph where edges have no direction. The relationship between vertices is
+                    mutual.
+                    <ul>
+                        <li>Example: An undirected graph can represent friendships in a social network.</li>
+                    </ul>
+                </li>
+                <li>Directed Graph (Digraph): A graph where edges have a direction, indicating a one-way relationship
+                    between vertices.
+                    <ul>
+                        <li>Example: A directed graph can represent a road map where roads only allow travel in one
+                            direction.</li>
+                    </ul>
+                </li>
+                <li>Weighted Graph: A graph where each edge has a weight or cost associated with it, often used to
+                    represent distances or costs in a network.
+                    <ul>
+                        <li>Example: A weighted graph can be used to find the shortest path in a transportation network.
+                        </li>
+                    </ul>
+                </li>
+                <li>Cyclic and Acyclic Graphs: Cyclic graphs contain cycles (paths that return to the same vertex),
+                    while acyclic graphs do not contain cycles.
+                    <ul>
+                        <li>Example: Acyclic graphs are used in representing hierarchical structures, like
+                            organizational charts.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Tutorial for Graphs</h3>
+            <table>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/M3_pLsDdeuU?autoplay=1" frameborder="0"></iframe>
+                    </td>
+                    <td><iframe src="https://www.youtube.com/embed/3oI-34aPMWM?autoplay=1" frameborder="0"></iframe>
+                    </td>
+                    <td><iframe src="https://www.youtube.com/embed/OsNklbh9gYI?autoplay=1" frameborder="0"></iframe>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/lea-Wl_uWXY?autoplay=1" frameborder="0"></iframe>
+                    </td>
+                    <td><iframe src="https://www.youtube.com/embed/-tgVpUgsQ5k?autoplay=1" frameborder="0"></iframe>
+                    </td>
+                    <td><iframe src="https://www.youtube.com/embed/Qzf1a--rhp8?autoplay=1" frameborder="0"></iframe>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        &copy; All Rights are reserved by take U forward
+
+    </footer>
+</body>
+
+</html>
